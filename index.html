@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <script src="eventos.js"></script>
-	<title>Mi sitio web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boton-container {
+            padding: 5px;
+            background-color: green;
+            display: inline-block;
+        }
+        .boton-saludar {
+            padding: 10px;
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
-	<button onclick="alert('Hola!')">Saludar</button>
+    <div class="boton-container">
+        <button class="boton-saludar" onclick="mostrarAlerta()">Saludar</button>
+    </div>
+    <script src="eventos.js"></script>
 </body>
 </html>
